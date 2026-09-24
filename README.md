@@ -1,8 +1,13 @@
 Run Girl
+
 Integrantes:
+
 Engelbert Aguirre — Código: 202122735798 — Programación y desarrollo
+
 Daniela Garcia — Código: 202222745641 — Documentación y diseño de escenarios
+
 Sarahi Navarro — Código:202222747193 — Animación
+
 Kendry Rodriguez — Código: 202222747209 — Diseño gráfico del personaje
 
 Descripción
