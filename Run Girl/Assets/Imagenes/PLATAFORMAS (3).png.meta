@@ -124,7 +124,7 @@ TextureImporter:
         height: 403
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 132}
       customData: 
       outline: []
       physicsShape: []
@@ -146,7 +146,7 @@ TextureImporter:
         height: 390
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 151}
       customData: 
       outline: []
       physicsShape: []
@@ -187,7 +187,7 @@ TextureImporter:
         x: 187
         y: 1182
         width: 700
-        height: 380
+        height: 246
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -212,7 +212,7 @@ TextureImporter:
         height: 383
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 143}
       customData: 
       outline: []
       physicsShape: []
@@ -231,7 +231,7 @@ TextureImporter:
         x: 206
         y: 730
         width: 570
-        height: 262
+        height: 254
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,13 +250,13 @@ TextureImporter:
       name: PLATAFORMAS (3)_6
       rect:
         serializedVersion: 2
-        x: 1008
-        y: 674
+        x: 1013
+        y: 660
         width: 1026
-        height: 290
+        height: 289
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 66}
       customData: 
       outline: []
       physicsShape: []
@@ -275,10 +275,10 @@ TextureImporter:
         x: 291
         y: 253
         width: 476
-        height: 261
+        height: 248
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 32}
       customData: 
       outline: []
       physicsShape: []
@@ -297,10 +297,10 @@ TextureImporter:
         x: 1037
         y: 227
         width: 990
-        height: 276
+        height: 253
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 92}
       customData: 
       outline: []
       physicsShape: []

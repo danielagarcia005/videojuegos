@@ -1,21 +1,12 @@
-
 using UnityEngine;
 
 public class MovimientoJugadora : MonoBehaviour
 {
-    [Header("Movimiento")]
     public float velocidad = 6f;
-    public float fuerzaSalto = 7f;
-
-    [Header("Deteccion del suelo")]
-    public Transform puntoSuelo;
-    public float radioSuelo = 0.12f;
-    public LayerMask capaSuelo;
+    public float fuerzaSalto = 8f;
 
     private Rigidbody2D rb;
-
     private float movimientoHorizontal;
-    private bool solicitarSalto;
 
     void Awake()
     {
@@ -24,14 +15,16 @@ public class MovimientoJugadora : MonoBehaviour
 
     void Update()
     {
-        movimientoHorizontal =
-            Input.GetAxisRaw("Horizontal");
+        movimientoHorizontal = Input.GetAxisRaw("Horizontal");
 
-        if (Input.GetKeyDown(KeyCode.Space) ||
-            Input.GetKeyDown(KeyCode.W) ||
-            Input.GetKeyDown(KeyCode.UpArrow))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            solicitarSalto = true;
+            Debug.Log("ESPACIO DETECTADO");
+
+            rb.linearVelocity = new Vector2(
+                rb.linearVelocity.x,
+                fuerzaSalto
+            );
         }
     }
 
@@ -41,21 +34,5 @@ public class MovimientoJugadora : MonoBehaviour
             movimientoHorizontal * velocidad,
             rb.linearVelocity.y
         );
-
-        bool tocandoSuelo = Physics2D.OverlapCircle(
-            puntoSuelo.position,
-            radioSuelo,
-            capaSuelo
-        );
-
-        if (solicitarSalto && tocandoSuelo)
-        {
-            rb.linearVelocity = new Vector2(
-                rb.linearVelocity.x,
-                fuerzaSalto
-            );
-        }
-
-        solicitarSalto = false;
     }
 }
