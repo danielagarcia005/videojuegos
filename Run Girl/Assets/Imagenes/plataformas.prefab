@@ -399,7 +399,7 @@ TilemapRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 4.6299996, y: 1.515044, z: 0}
+  m_ChunkCullingBounds: {x: 63.625, y: 24.68805, z: 0}
   m_MaxChunkCount: 32
   m_MaxFrameAge: 64
   m_SortOrder: 0
@@ -446,11 +446,11 @@ Grid:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7406941232882857606}
   m_Enabled: 1
-  m_CellSize: {x: 10.259999, y: 4.030088, z: 0}
+  m_CellSize: {x: 128.25, y: 50.3761, z: 0}
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
---- !u!114 &3889833799085581056
+--- !u!114 &6863167587096754749
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
